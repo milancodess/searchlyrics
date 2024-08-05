@@ -1,26 +1,27 @@
 {
-  "name": "genius-lyrics-fetcher",
+  "name": "searchlyrics",
   "version": "1.0.0",
-  "description": "Genius Lyrics Fetcher is a simple and efficient npm package designed to fetch song lyrics and query details from the Genius API. Whether you're building a music app or a chatbot, this package provides a convenient way to access song information and lyrics directly from Genius.",
+  "description": "Search lyrics is a simple and efficient npm package designed to fetch song lyrics and query details from the Genius API. Whether you're building a music app or a chatbot, this package provides a convenient way to access song information and lyrics directly from Genius.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milancodess/genius-lyrics-fetcher.git"
+    "url": "git+https://github.com/milancodess/searchlyrics.git"
   },
   "keywords": [
     "lyrics",
     "genius",
-    "api"
+    "api",
+    "searchlyrics"
   ],
   "author": "Milan Bhandari",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/milancodess/genius-lyrics-fetcher/issues"
+    "url": "https://github.com/milancodess/searchlyrics/issues"
   },
-  "homepage": "https://github.com/milancodess/genius-lyrics-fetcher#readme",
+  "homepage": "https://github.com/milancodess/searchlyrics#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12",
