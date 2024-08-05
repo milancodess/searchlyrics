@@ -1,13 +1,13 @@
-# Genius Lyrics Fetcher
+# Search Lyrics
 
-Genius Lyrics Fetcher is a simple and efficient npm package designed to fetch song lyrics and query details from the Genius API. Whether you're building a music app or a chatbot, this package provides a convenient way to access song information and lyrics directly from Genius.
+Search lyrics is a simple and efficient npm package designed to fetch song lyrics and query details from the Genius API. Whether you're building a music app or a chatbot, this package provides a convenient way to access song information and lyrics directly from Genius.
 
 ## Installation
 
 Install the package using npm:
 
 ```bash
-npm install genius-lyrics-fetcher
+npm install searchlyrics
 ```
 
 ## Features
@@ -24,7 +24,7 @@ Use the `fetchQueryDetails` function to search for song details by providing a s
 #### Example
 
 ```javascript
-const { fetchQueryDetails } = require('genius-lyrics-fetcher');
+const { fetchQueryDetails } = require('searchlyrics');
 
 async function searchSong(query) {
   try {
@@ -49,7 +49,7 @@ Use the `fetchLyrics` function to fetch the lyrics of a song from a provided Gen
 #### Example
 
 ```javascript
-const { fetchLyrics } = require('genius-lyrics-fetcher');
+const { fetchLyrics } = require('searchlyrics');
 
 async function getSongLyrics(url) {
   try {
@@ -69,7 +69,7 @@ getSongLyrics('https://genius.com/Ed-sheeran-shape-of-you-lyrics');
 Here is a comprehensive example that combines both functionalities:
 
 ```javascript
-const { fetchQueryDetails, fetchLyrics } = require('genius-lyrics-fetcher');
+const { fetchQueryDetails, fetchLyrics } = require('searchlyrics');
 
 async function fetchSongInfoAndLyrics(songName) {
   try {
@@ -109,7 +109,7 @@ Create a separate file to demonstrate the usage of this npm package. Let's call 
 ### **`example.js`**
 
 ```javascript
-const { fetchQueryDetails, fetchLyrics } = require('genius-lyrics-fetcher');
+const { fetchQueryDetails, fetchLyrics } = require('searchlyrics');
 
 async function fetchSongInfoAndLyrics(songName) {
   try {
