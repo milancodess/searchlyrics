@@ -1,5 +1,5 @@
-const fetchQueryDetails = require('./lib/fetchQueryDetails');
-const fetchLyrics = require('./lib/fetchLyrics');
+const fetchQueryDetails = require('./routes/fetchQueryDetails');
+const fetchLyrics = require('./routes/fetchLyrics');
 
 module.exports = { 
     fetchQueryDetails,
