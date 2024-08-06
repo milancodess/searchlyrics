@@ -9,6 +9,59 @@ Install the package using npm:
 ```bash
 npm install searchlyrics
 ```
+Install the package globally to use the CLI tool:
+
+```bash
+npm install -g searchlyrics
+```
+
+## Usage
+
+You can use the `searchlyrics` CLI tool to fetch song details and lyrics directly from the command line.
+
+### Fetching Lyrics by Song Name
+
+To fetch lyrics for a specific song, you can use the following command:
+
+```bash
+searchlyrics "Shape of You"
+```
+
+If you don't provide a song name as an argument, the CLI will prompt you to enter one:
+
+```bash
+searchlyrics
+```
+
+You will then be prompted to enter a song name:
+
+```plaintext
+Enter song name: Shape of You
+```
+
+### Example Output
+
+Here is an example of what the output might look like:
+
+<details>
+  <summary>Click to expand example output</summary>
+
+```plaintext
+Song Details:
+Title: Shape of You
+Artist: Ed Sheeran
+Release Date: January 6, 2017
+Thumbnail: https://images.genius.com/9f8c5db5d2b997e1d9ed9b70cf2a41e7.1000x1000x1.jpg
+
+Lyrics:
+The club isn't the best place to find a lover
+So the bar is where I go (mm-mm)
+Me and my friends at the table doing shots
+Drinking fast and then we talk slow (mm-mm)
+...
+```
+
+  </details>
 
 ## Features
 
